@@ -93,7 +93,7 @@ main()
 						printf("Tame safaltapurvak Special Recharge karyu che\n");
 						break;
 						}
-		   break;2
+		   break;
 		   default:
 				printf("Invalid choice....");
 		}
