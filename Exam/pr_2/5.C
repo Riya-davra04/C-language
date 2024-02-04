@@ -16,15 +16,15 @@ main()
 	}
 	else if(n>50 && n<=150)
 	{
-		electricity_bill=50*0.50+(total_bill-50)*0.75;
+		electricity_bill=25+(total_bill-50)*0.75;
 	}
        else if(n>150 && n<=250)
 	{
-		electricity_bill=50*0.50+100*0.75+(total_bill-150)*1.20;
+		electricity_bill=100+(total_bill-150)*1.20;
 	}
 	else
 	{
-		 electricity_bill=50*0.50+100*0.75+100*1.20+(total_bill-250)*1.50;
+		 electricity_bill=220+(total_bill-250)*1.50;
 
 	}
 		 electricity_bill=electricity_bill+0.20*electricity_bill;
