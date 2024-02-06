@@ -2,15 +2,31 @@
 #include<conio.h>
 main ()
 {
-	int n ,a;
+	int n ,a ,n1=0 ,n2=1 ,b;
 	clrscr();
 
 	printf("Enter any number: ");
-	scanf("%d",&a);
+	scanf("%d",&n);
 
-	for(n = 1 ; a>=n ; a--)
+	for(a = 0 ;a < n; a++)
 	{
-		printf("Numbar : %d\n",a);
+		if(a <= 1)
+		{
+			b=a;
+		}
+
+		else
+		{
+			b=n1+n2;
+			n1=n2;
+			n2=b;
+		}
+
+		printf("%d",b);
+		if(a!=n-1)
+		{
+			printf(" ");
+		}
 
 	}
 	getch();

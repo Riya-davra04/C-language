@@ -2,16 +2,17 @@
 #include<conio.h>
 main ()
 {
-	int n,a;
+	int n,a=2;
 	clrscr();
 
 	printf("Enter any number: ");
-	scanf("%d",&a);
+	scanf("%d",&n);
 
-	for(n = 1 ; n<=a; n++)
+	do
 	{
-		printf("Numbar : %d\n",n);
-
+		printf("Numbar : %d\n",a);
+		a+=2;
 	}
+	while(a<=n);
 	getch();
 }
