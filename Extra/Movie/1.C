@@ -6153,21 +6153,6 @@ main()
 	printf("Enter Day: ");
 	scanf("%s",&day);
 
-
-
-
-      /*	printf("Select Day:");
-	printf("1.Sunday");
-	printf("2.Monday");
-	printf("3.Tuesday");
-	printf("4.Wednesday");
-	printf("5.Thursday");
-	printf("6.Friday");
-	printf("7.Saturday");  */
-
-
-
-
 	clrscr();
 	textcolor(YELLOW);
 	textbackground(WHITE);
