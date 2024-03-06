@@ -19,8 +19,7 @@ main()
             sum=sum+a[i][j];
            }
            else{
-            printf(" x2
-             ");
+            printf("  ");
            }
         }
         printf("\n");
