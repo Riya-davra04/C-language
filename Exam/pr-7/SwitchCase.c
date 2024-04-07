@@ -12,7 +12,7 @@ int subtraction(int a, int b)
 
 int multiplication(int a, int b)
 {
-    printf("Multiplication of %d and %d : %d\n\n", a, b, a * b);
+    printf("Multiplication of %d and %d : %d\n", a, b, a * b);
 }
 
 int division(int a, int b)
