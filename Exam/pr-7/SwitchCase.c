@@ -29,7 +29,7 @@ int division(int a, int b)
 
 int modulus(int a, int b)
 {
-    printf("Modulus of %d and %d : %d\n\n", a, b, a + b);
+    printf("Modulus of %d and %d : %d\n\n", a, b, a % b);
 }
 
 void main()
